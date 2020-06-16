@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capter-31-34</title>
+</head>
+<body>
+
+    <script>
+        // //Question....
+
+        // var a=new Date();
+        // document.write(a);
+
+//Question....
+
+
+// const monthNames = ["January", "February", "March", "April", "May", "June",
+//   "July", "August", "September", "October", "November", "December"
+// ];
+
+// const d = new Date();
+// document.write("The current month is " + monthNames[d.getMonth()]);
+
+
+//Quesiton....    
+
+// var a=new Date();
+// var b=a.toString();
+// document.write(b.slice(0,3));
+
+//Question.....
+
+// var a=new Date();
+// var h=a.getHours();
+// if(h>=12)
+// {
+//     alert("It's PM");
+// }
+// else{
+//     alert("It's AM");
+//     }
+
+//Question...
+// var a=new Date();
+// var laterDate=a.getDate()-1;
+// var laterMonth=a.getMonth()-1;
+
+// const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+// document.write("The later date is " + monthNames[laterMonth],laterDate,a);
+
+
+//Question...
+
+// var date1 = new Date("Jan 15,2018"); 
+// var date2 = new Date("June 16,2020"); 
+  
+// var Difference_In_Time = date2.getTime() - date1.getTime(); 
+  
+// var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
+// document.write(Difference_In_Days+" Days have passed since 1st Ramazan");
+
+//Question...
+
+// var date=new Date();
+// var age=prompt();
+// var getyear=date.getFullYear()-age;
+// document.write(getyear);
+
+//Quesion...
+
+var name=prompt('name');
+var date=new Date();
+
+const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+
+var month=monthNames[date.getMonth()];
+var units=410;
+var chargesPerunits=16;
+var netamount=units*chargesPerunits;
+var latepayment=netamount+350;
+
+document.write("<h1>K-ELECTRIC BILL</h1><br/><br/>Customer Name: "+name+"<br/>"+"Month: "+month+"<br/>"+"Number of units: "+units+"<br/>"+"Charges per unit: "+chargesPerunits+"<br/><br/><br/>"+"With in date payments: "+netamount+"<br/>"+"After due date: "+latepayment+"<br/>");
+
+
+
+ </script>
+    
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-34-38</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+//Question...
+
+
+    // function date()
+    // {
+    //     var date=new Date();
+    //     return date;
+    // }
+    // document.write(date());
+
+//Question...
+
+// function calculateHypotenuse(base,perpendicualar)
+// {
+//     function calculateSquare(n)
+//     {
+//         return n*n;
+//     }
+//     return Math.sqrt(calculateSquare(base)+calculateSquare(perpendicualar));
+// }
+// var base=prompt('base');
+// var perp=prompt('perpendicular');
+// document.write(calculateHypotenuse(base,perp).toFixed(2));
+
+
+//Question
+
+// var text=prompt('enter');
+// var check='';
+// for(var i=text.length-1;i>=0;i--)
+// {
+//  check+=text[i];   
+// }
+// if(check===text)
+// {
+//     alert(text+' is palindrome');
+// }
+// else{
+//     alert(text+" is not palindrome");
+// }
+
+//Question....
+
+// function uppercase(str)
+// {
+//   var array1 = str.split(' ');
+//   var newarray1 = [];
+    
+//   for(var x = 0; x < array1.length; x++){
+//       newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//   }
+//   return newarray1.join(' ');
+// }
+// document.write(uppercase("the quick brown fox"));
+
+
+//Question....
+// function findLongestWord(str)
+//  {
+//   var strSplit = str.split(' ');
+//   var longestWord = 0;
+//   var word='';
+//   for(var i = 0; i < strSplit.length; i++)
+//   {
+//     if(strSplit[i].length > longestWord){
+// 	longestWord = strSplit[i].length;
+//     word=strSplit[i];
+//     }
+//   }
+//   document.write(word+"=");
+//   return longestWord;
+// }
+// document.write(findLongestWord("The quick brown fox jumped over theererererer lazy dog"));
+
+
+//Question....
+
+
+// function getOccurance(str,letter)
+// {
+//     var str = str.split('');   
+//     var count=0;
+//     for(var i = 0; i < str.length; i++)
+//     {
+//         if(str[i] ===letter)
+//         {
+//             count++;
+//         }
+//     }
+            
+// return count;
+// }
+// document.write(getOccurance('asif ahemd aaaaasif','a'));
+
+//Question/... 
+
+function calcCircumference(radius)
+{
+    return radius*Math.PI*2;
+}
+function calcArea(radius)
+{
+    return Math.pow(radius,2)*Math.PI;
+}
+
+document.write("The circumference is "+calcCircumference(3).toFixed(2)+"<br/>");
+document.write("The area of circle is "+calcArea(3).toFixed(2));
+
+
+</script>
+</html>
